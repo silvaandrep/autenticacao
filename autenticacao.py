@@ -9,18 +9,22 @@ def autenticar_usuario(username, password):
         return False
 
 def exibir_pagina_inicial():
-    st.write("Página de inicial. Autenticação!")
+    st.write("Página inicial - Autenticação!")
 
 # Código da aplicação #=======================================================
 
 def exibir_pagina_restrita():
     # Aqui você pode exibir a página restrita acessível somente após a autenticação
-
-    st.sidebar.header('MENU DE AÇÕES DA B3')
-    
-    st.title('Gráfico de Velas com Linha')
+    st.sidebar.header('Sidebar')
+    st.title('Title')
+    st.header('Header')
+    st.subheader('Subheader')
+    st.caption('Caption')
+    st.write('Write')
+    st.text('Text')
     
 # Fim do código da aplicação #=====================================
+
 def main():
     # Inicializa o estado de autenticação como False (não autenticado)
     if "autenticado" not in st.session_state:
