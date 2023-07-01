@@ -3,16 +3,13 @@ import streamlit as st
 def autenticar_usuario(username, password):    
     # Verifique se o nome de usuário e a senha correspondem a um usuário válido
     # Retorne True se a autenticação for bem-sucedida, ou False caso contrário
-
-    # Exemplo simples: autenticação sempre bem-sucedida para o usuário "admin" com a senha "senha123"
     if username == "admin" and password == "senha123":
         return True
     else:
         return False
 
 def exibir_pagina_inicial():
-    # Aqui você pode exibir a página inicial do seu aplicativo
-    st.write("Página de autenticação!")
+    st.write("Página de inicial. Autenticação!")
 
 # Código da aplicação #=======================================================
 
