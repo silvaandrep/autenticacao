@@ -1,4 +1,4 @@
-import streamlit as st
+oimport streamlit as st
 
 def autenticar_usuario(username, password):    
     # Verifique se o nome de usuário e a senha correspondem a um usuário válido
@@ -9,7 +9,7 @@ def autenticar_usuario(username, password):
         return False
 
 def exibir_pagina_inicial():
-    st.write("Página inicial - Autenticação!")
+    st.write('Página de Login')
 
 # Código da aplicação #=======================================================
 
