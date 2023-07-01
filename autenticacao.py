@@ -1,4 +1,4 @@
-oimport streamlit as st
+import streamlit as st
 
 def autenticar_usuario(username, password):    
     # Verifique se o nome de usuário e a senha correspondem a um usuário válido
