@@ -16,6 +16,8 @@ def autenticar_usuario(username, password):
 def exibir_pagina_restrita():
     # Aqui você pode exibir a página restrita acessível somente após a autenticação
     st.sidebar.title('Sidebar')
+    if st.sidebar.button("Logout"):
+        st.session_state.autenticado = False
     st.title('Main')
     
 # Fim do código da aplicação #===============================================
