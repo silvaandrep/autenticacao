@@ -1,7 +1,7 @@
 import streamlit as st
 
-def exibir_pagina_inicial():
-    st.write('Página de Login')
+#def exibir_pagina_inicial():
+#    st.write('Página de Login')
 
 def autenticar_usuario(username, password):    
     # Verifique se o nome de usuário e a senha correspondem a um usuário válido
@@ -46,8 +46,8 @@ def main():
                 st.error("Falha na autenticação. Tente novamente.")
 
     # Exibe a página inicial se não estiver autenticado
-    if not st.session_state.autenticado:
-        exibir_pagina_inicial()
+    #if not st.session_state.autenticado:
+    #    exibir_pagina_inicial()
 
 if __name__ == "__main__":
     main()
